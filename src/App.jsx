@@ -40,7 +40,7 @@ const App = () => {
         type: "line",
         data: {
           labels,
-          datasets: [{ label: "°C", data: temps, borderColor: "#2563eb", backgroundColor: "rgba(37,99,235,0.2)", tension: 0.3 }]
+          datasets: [{ label: "ï¿½C", data: temps, borderColor: "#2563eb", backgroundColor: "rgba(37,99,235,0.2)", tension: 0.3 }]
         },
         options: { responsive: true }
       });
